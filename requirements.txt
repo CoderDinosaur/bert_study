@@ -1,0 +1,6 @@
+numpy
+pandas
+scikit-learn
+torch==1.12.0
+pytorch-crf==0.7.2
+seqeval
