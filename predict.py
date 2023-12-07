@@ -15,7 +15,7 @@ if __name__ == '__main__':
     model = Model()
     optimizer = torch.optim.Adam(model.parameters(), lr=LR)
 
-    for e in range(2):
+    for e in range(EPOCH):
         # b为batch， (input, target, mask) 即为 collate_fn的返回值
         for b, (input, target, mask) in enumerate(loader):
             # 执行forward方法
